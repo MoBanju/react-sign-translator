@@ -1,6 +1,7 @@
 {
   "name": "react-sign-translator",
   "version": "0.1.0",
+  "homepage": "./",
   "engines": {
     "node": "18.x"
   },
