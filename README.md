@@ -11,7 +11,7 @@ The application have a login, translate and profile page. The login page will ta
 
 The user can navigate around by clicking icons and links in the navbar.
 ## Prototype
-
+![Prototype](Prototype-Sign-Translate.png)
 
 
 ## Link
