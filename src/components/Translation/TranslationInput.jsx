@@ -11,8 +11,8 @@ const TranslationInput = ({onTranslation}) => {
         <form onSubmit={handleSubmit(onSubmit)}>
             <fieldset className="border-translate">
                 <input type="text" className="input-text" {...register('translateInput')} placeholder="⌨️️ | Hello" />
+                <button type="submit" className="translate-btn">➜</button>
             </fieldset>
-            <button type="submit" className="translate-btn">➜</button>
         </form>
     )
 }

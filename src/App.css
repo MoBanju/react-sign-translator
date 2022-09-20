@@ -105,14 +105,6 @@ nav{
     font-size: 35px;
 }
 
-.profile-click-header{
-    border: 4px solid black;
-    border-radius: 30px;
-    text-decoration-line: none !important;
-    padding: 10px;
-    padding-left: 40px;
-    
-}
 
 .login-head li, li a {
     display: inline;
@@ -126,7 +118,6 @@ nav{
   .profile-pic{
     position: fixed;
     top: 3%;
-    left: 78.5%;
     background-color: #FFC75F;
   }
 
@@ -151,7 +142,7 @@ nav{
 .profile-btn1{
     background-color: #FFC75F;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    width: 13%;
+    width: 20%;
     height: 50px;
     font-size: 30px;
     font-weight: bolder;
@@ -159,6 +150,8 @@ nav{
     -moz-border-radius:20%; 
     -webkit-border-radius:20%; 
     border-radius:20%;
+    max-width: 100%;
+    overflow: hidden;
     
 }
 
@@ -169,13 +162,15 @@ nav{
 .profile-btn2{
     background-color: #FFC75F;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    width: 13%;
+    width: 20%;
     height: 50px;
     font-size: 30px;
     font-weight: bolder;
     -moz-border-radius:20%; 
     -webkit-border-radius:20%; 
     border-radius:20%;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .profile-all{
@@ -195,7 +190,7 @@ nav{
     background-color: #FFC75F;
     color: white;
     font-family: Ink Free;
-    padding: 4%;
+    padding: 100px;
     background-color: #FFC75F;
     text-align: center;
 }
@@ -205,8 +200,7 @@ nav{
     -moz-border-radius:12px; 
     -webkit-border-radius:12px; 
     border-radius:12px;
-    width: 60%;
-    
+    width: 60%;   
 }
 
 
@@ -232,7 +226,7 @@ padding-left: 40px;
     border-radius:50%;
     background-color: #845EC2;
     top: 19.6%;
-    left: 73%;
+    left: 72%;
     position: fixed;
     color: white;
 }
@@ -257,4 +251,12 @@ padding-left: 40px;
     border-radius: 25px;
     font-size: 30px;
     position: absolute;
+}
+
+.img-name{
+    margin-bottom: 20px;
+}
+
+.header-left{
+    float: left;
 }
