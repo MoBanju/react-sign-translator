@@ -1,16 +1,17 @@
 const express = require('express');
 const app = express();
 const packageJson = require('./package.json')
+const path = require('path')
+console.log(__dirname)
 
 // Middleware
 app.use(requireHTTPS);
-app.use(express.static('./build/' + packageJson.name));
+app.use(express.static(path.join(__dirname, 'public')));
 
-// Redirect app request to build/index.html
-app.get('/*', (req, res) => {
-  res.sendFile('index.html', {root: 'build/' + packageJson.name});
+app.get('*', function(req, res) {
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
-
+// Redirect app request to build/index.html
 // Start server
 app.listen(process.env.PORT || 8080, () => console.log('Server started...'));
 
