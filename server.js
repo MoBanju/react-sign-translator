@@ -1,6 +1,5 @@
 const express = require('express');
 const app = express();
-const packageJson = require('./package.json')
 
 // Middleware
 app.use(requireHTTPS);
