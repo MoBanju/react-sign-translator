@@ -11,6 +11,11 @@ The application have a login, translate and profile page. The login page will ta
 
 The user can navigate around by clicking icons and links in the navbar.
 ## Prototype
+There has been few changes after the prototype was made:
+- The header does not have any profile info because of personal styling choices.
+- Login page now only directs the user to the translation page
+- Profile page have recent translations and profile actions, which includes the actions: logout and clear translations history
+ 
 ![Prototype](Prototype-Sign-Translate.png)
 
 
