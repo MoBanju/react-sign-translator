@@ -226,8 +226,7 @@ padding-left: 40px;
     border-radius:50%;
     background-color: #845EC2;
     top: 19.6%;
-    left: 72%;
-    position: fixed;
+    position:sticky;
     color: white;
 }
 
