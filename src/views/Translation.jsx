@@ -43,7 +43,7 @@ const Translation = () =>{
                 <TranslationInput onTranslation={handleTranslate}/>
             </section>
             <div className="output-translation">
-                {imageTranslate.map((c, index) => c == " " ? <h1></h1>: (<TranslationOutput key={index} data={c} />))}
+                {imageTranslate.map((c, index) => c === " " ? <br />: (<TranslationOutput key={index} data={c} />))}
                 <p>Translation</p>
             </div>
             {apiError && <p>{ apiError }</p>}

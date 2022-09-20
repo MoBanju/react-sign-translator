@@ -24,7 +24,7 @@ const LoginForm = () =>{
         if(user !==null){
             navigate('translation')
         }
-    }, [user, navigate]) //Empty means only run 1 time
+    }, [user, navigate])
 
     //Event Handlers
     const onSubmit = async ({username}) =>{
